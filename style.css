@@ -85,7 +85,7 @@ span{
 .banner-img img{
     width: 500px;
 }
-.banner-content h2{
+.banner-title{
     color: #0B0223;
     text-align: center;
     font-size: 48px;
@@ -93,7 +93,7 @@ span{
     font-weight: 600;
     line-height: normal;
 }
-.banner-content h1{
+.goat{
     font-size: 90px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -101,7 +101,7 @@ span{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.banner-content p{
+.banner-description{
     color: #534C64;
     text-align: left;
     font-size: 18px;
@@ -213,6 +213,7 @@ button{
     color: #0B0223;
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 button:hover{
     color: #F948B2;
@@ -220,6 +221,62 @@ button:hover{
     border-radius: 50px;
 }
 /* games item-section-end */
+
+/* footer-section-start */
+
+.footer-container{
+    margin-top: 200px;
+    background: #0B0223;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+.details-container{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 50px;  
+}
+.social-icon{
+    background-color: #0B0223;
+    padding-top: 0px;
+    align-items: center;
+    cursor: pointer;
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copyright{
+    margin-top: 60px;
+    padding-bottom: 40px;
+    display: inline-flex;
+}
+/* footer-section-end */
 
 
 
@@ -358,20 +415,38 @@ button:hover{
     button img{
         width: 20px;
     }
+    /* footer-section */
+    .footer-icon{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 100px;
+    }
+    .details-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 15px;
+        gap: 10px;
+    
+    }
+    .social{
+        gap: 10px; 
+    }
+    .policy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    small{
+        font-size: 8px;
+    }
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -393,7 +468,7 @@ button:hover{
         align-items: center;
     }
     .banner-content{
-        margin-top: 50px;
+        margin-top: 50px;  
     }
     /* online games-section */
     .items{
