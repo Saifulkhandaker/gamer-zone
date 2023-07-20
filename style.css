@@ -142,6 +142,7 @@ span{
 .item-img:hover{
     border: 5px solid #f5339a;
     border-radius: 10px;
+    cursor: pointer;
 }
 .items p{
     text-align: left;
@@ -234,6 +235,7 @@ span{
 .footer-icon{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding-top: 100px;
 }
@@ -405,7 +407,6 @@ span{
     .footer-icon{
         display: flex;
         justify-content: center;
-        align-items: center ;
         padding-top: 100px;
     }
     .details-container{
@@ -425,7 +426,6 @@ span{
         font-size: 12px;
     }
     small{
-        width: 120px;
         font-size: 8px;
         font-weight: 500;
     }
